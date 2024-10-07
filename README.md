@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Desafio de programação (Júnior)
 
-## Getting Started
+Por favor leiam este documento com muita atenção. O intuito do desafio é avaliar seus conhecimentos técnicos de JavaScript/Typescript.
 
-First, run the development server:
+# Instruções de entrega do desafio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Primeiro, crie um repositório público no Github (crie uma conta se você não possuir).
+2. Em seguida, implemente o projeto tal qual descrito abaixo, em seu ambiente local.
+3. Faça o envio(push) do seu projeto local para um repositório **público** no Github.
+4. Por fim, envie um via e-mail com o link do projeto em seu repositório para os contatos brendon@pemill.com.br e rh@pemill.com.br
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# O desafio será: Criar uma aplicação de listagem de tarefas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Objetivo:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Criar uma aplicação web usando o framework Next.js
+- Utilizar TypeScript como linguagem de programação
+- A aplicação deve permitir ao usuário adicionar, editar e remover tarefas
+- As tarefas devem ser armazenadas em um banco de dados PostgreSQL (ex: Supabase https://supabase.com/)
+- Deve ser possível filtrar as tarefas por status (concluídas/não concluídas)
 
-## Learn More
+Instruções:
 
-To learn more about Next.js, take a look at the following resources:
+- Inicie o projeto com o comando `npx create-next-app@latest --typescript` em uma branch com seu nome (ex: "brendon-dos-reis-carvalho")
+- Configure a conexão com um banco de dados PostgreSQL
+- Crie as tabelas necessárias para armazenar as tarefas
+- Implemente as funcionalidades de adicionar, editar e remover tarefas
+- Adicione a funcionalidade de filtrar as tarefas por status
+- Faça um pull request para o repositório original com sua solução
+- Publique sua aplicação(Deploy) na Vercel (https://vercel.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Avaliação:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Organização e clareza do código
+- Uso correto do Next.js e TypeScript
+- Funcionamento das implementações
+- Boas práticas de programação e performance
 
-## Deploy on Vercel
+Dicas:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Faça uso das funcionalidades do Next.js, como o uso de Rotas e SSR
+- Utilize os recursos do TypeScript, como tipagem e interfaces
+- A documentação do NextJS disponível no site https://nextjs.org/docs/ poderá lhe ajudar bastante na resolução do desafio
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Boa sorte!

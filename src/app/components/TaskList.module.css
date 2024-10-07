@@ -1,0 +1,67 @@
+/* src/app/components/TaskList.module.css */
+.taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.taskItem {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.taskDescription {
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.taskStatus {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.editButton {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.deleteButton {
+  background-color: var(--error-color);
+  color: white;
+}
+
+.input {
+  width: 30%;
+  padding: 0.4rem;
+  margin-right: 0.4rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
